@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/chzyer/readline"
+	"github.com/gohxs/readline"
 	"github.com/juju/ansiterm"
 	"github.com/manifoldco/promptui/list"
 	"github.com/manifoldco/promptui/screenbuf"
@@ -42,7 +42,7 @@ type Select struct {
 	Size int
 
 	// IsVimMode sets whether to use vim mode when using readline in the command prompt. Look at
-	// https://godoc.org/github.com/chzyer/readline#Config for more information on readline.
+	// https://godoc.org/github.com/gohxs/readline#Config for more information on readline.
 	IsVimMode bool
 
 	// HideHelp sets whether to hide help information.
@@ -100,7 +100,7 @@ type SelectKeys struct {
 // Key defines a keyboard code and a display representation for the help menu.
 type Key struct {
 	// Code is a rune that will be used to compare against typed keys with readline.
-	// Check https://github.com/chzyer/readline for a list of codes
+	// Check https://github.com/gohxs/readline for a list of codes
 	Code rune
 
 	// Display is the string that will be displayed inside the help menu to help inform the user
@@ -501,7 +501,7 @@ type SelectWithAdd struct {
 	Validate ValidateFunc
 
 	// IsVimMode sets whether to use vim mode when using readline in the command prompt. Look at
-	// https://godoc.org/github.com/chzyer/readline#Config for more information on readline.
+	// https://godoc.org/github.com/gohxs/readline#Config for more information on readline.
 	IsVimMode bool
 
 	// a function that defines how to render the cursor

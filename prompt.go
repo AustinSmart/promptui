@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/chzyer/readline"
+	"github.com/gohxs/readline"
 	"github.com/manifoldco/promptui/screenbuf"
 )
 
