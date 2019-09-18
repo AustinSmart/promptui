@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/gohxs/readline"
-	"github.com/manifoldco/promptui/screenbuf"
+	"github.com/AustinSmart/promptui/screenbuf"
 )
 
 // Prompt represents a single line text field input with options for validation and input masks.

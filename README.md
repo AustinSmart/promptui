@@ -1,3 +1,9 @@
+# Forked from manifoldco/promptui
+
+
+Targets different readline library for better windows cmd.exe/wsl support
+
+
 # promptui
 
 Interactive prompt for command-line applications.
